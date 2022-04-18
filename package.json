@@ -1,0 +1,17 @@
+{
+  "name": "filemanagerbysamir",
+  "version": "1.0.0",
+  "description": "A npm package for file management",
+  "main": "main.js",
+  "git repository":"https://github.com/samirRay2020/npmPackage",
+  "entry point":"main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}

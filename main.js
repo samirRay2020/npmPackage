@@ -1,6 +1,5 @@
 const path = require("path");
 const fs = require("fs");
-const prompt = require("prompt-sync")({ sigint: true });
 
 function display(name,spaces){
     let lastname = name.split("\\");
