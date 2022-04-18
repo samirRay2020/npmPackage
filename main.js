@@ -32,8 +32,7 @@ function display(name,spaces){
 
 }
 
-function showpath(){
-    const path = prompt("Enter the path:");
+function showpath(path){
     display(path,0);
 }
 
@@ -57,9 +56,8 @@ function managefiles(source,dest){
     })
 }
 
-function manage(){
-    let source = prompt("Enter source path name:");
-    let dest = prompt("Enter dest path name:");
+function manage(source,dest){
+  
     if(!fs.existsSync(path.join(dest,"Managed Folder")))
       fs.mkdirSync(path.join(dest,"Managed Folder"));
     dest = path.join(dest,"Managed Folder");
