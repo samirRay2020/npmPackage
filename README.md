@@ -7,8 +7,8 @@ npm install filemanagerbysamir
 ```
 Use different functions
 ---
--import {functionname} from filemanagerbysamir
--Eg import {showpath} from 'filemanagerbysamir'
+- import {functionname} from filemanagerbysamir
+- Eg import {showpath} from 'filemanagerbysamir'
 
 Before running
 ```
